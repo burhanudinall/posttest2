@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/mount" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:text="Keindahan tersembunyi gunung rinjani"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:text="Gunung Rinjani yang terletak di Pulau Lombok, Nusa Tenggara Barat, adalah salah satu destinasi wisata alam paling menakjubkan di Indonesia. Dengan ketinggian sekitar 3.726 meter di atas permukaan laut, Rinjani bukan hanya menjadi gunung tertinggi kedua di Indonesia, tetapi juga menjadi surga bagi para pendaki dan pecinta alam. Keindahan alam yang ditawarkan Rinjani tidak hanya terletak di puncaknya, tetapi juga pada kekayaan ekosistem, pemandangan spektakuler, dan budaya lokal yang mengelilinginya."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="10dp"
+                android:padding="15dp"
+                android:text="Jelajah alam"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                tools:ignore="Orientation">
+
+                <Button
+                    android:id="@+id/btnKanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="16dp"
+                    android:text="Buka"></Button>
+
+                <Button
+                    android:id="@+id/btnKiri"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="16dp"
+                    android:text="Bagikan">
+
+                </Button>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/images1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:text="Puncak Gunung Rinjani"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:text="Puncak Gunung Rinjani dengan titik tertinggi 3.726 m dpl, mendominasi sebagian besar pemandangan Pulau Lombok bagian utara. Di sebelah barat kerucut Rinjani terdapat kaldera dengan luas sekitar 3.500 m × 4.800 m, memanjang kearah timur dan barat.
+                Di sisi timur kaldera terdapat Gunung Baru yaitu dengan sebutan Gunung Barujari yang memiliki kawah berukuran 170m×200 m dengan ketinggian 2.296 – 2376 mdpl. Gunung kecil ini terakhir meletus pada tanggal 25 Oktober 2015 dan 3 November 2015, setelah sebelumnya tercatat meletus Mei 2009 dan pada tahun 2004. Jika letusan tahun 2004 tidak memakan korban jiwa, letusan tahun 2009 ini telah memakan korban jiwa tidak langsung 31 orang, karena banjir bandang pada Kokok (Sungai) Tanggek akibat desakan lava ke Segara Anak. Sebelumnya Gunung Barujari pernah tercatat meletus pada tahun 1944 (sekaligus pembentukannya), 1966, dan 1994."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:text="gas naik ke puncak"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                tools:ignore="Orientation">
+
+                <Button
+                    android:id="@+id/btnKanan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="16dp"
+                    android:text="Buka"></Button>
+
+                <Button
+                    android:id="@+id/btnKiri1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="16dp"
+                    android:text="Bagikan">
+
+                </Button>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/images"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:outlineAmbientShadowColor="@color/white"
+                android:outlineSpotShadowColor="@color/white"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:text="sagara anak rinjani"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danau Segara Anak tepatnya di desa Sembalun Lawang, pulau Lombok, Nusa Tenggara Barat, Indonesia. Nama Segara (bahasa Jawa untuk laut) Anak berarti anak laut diberikan untuk itu karena warna biru mengingatkan danau laut. Danau ini terletak pada ketinggian kurang lebih 2000 mdpl. Jika seorang pendaki mendaki Gunung Rinjani (3726 Mdpl), umumnya mereka akan melintasi danau ini dan bermalam di sana. Danau Segara Anak luasnya 1.100 ha dengan kedalaman 230 m."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="4dp"
+                android:padding="8dp"
+                android:text="explore sagara anak"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                tools:ignore="Orientation">
+
+                <Button
+                    android:id="@+id/btnKanan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="16dp"
+                    android:text="Buka"></Button>
+
+                <Button
+                    android:id="@+id/btnKiri2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="16dp"
+                    android:text="Bagikan">
+
+                </Button>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="409dp"
+        android:layout_height="60dp"
+        android:background="@color/cardview_dark_background"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Mountain Store App"
+            android:textColor="@color/white" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:layout_marginEnd="345dp"
+            android:background="@android:color/white"
+            android:queryHint="Cari..."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="tombol aksi di bawah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
